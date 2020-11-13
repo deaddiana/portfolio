@@ -10,19 +10,16 @@ header {
   background-color: #b8ac21;
   color:#e6d7bb;
   font-size: 30px;
-  padding:40px 40px 40px 96px;
+  padding:40px 20px 40px 96px;
   font-family: 'Anton', sans-serif;
-
 }
-
 
 h2 {
   font-size: 30px;
   font-weight: normal;
   margin: 0;
-
-
 }
+
 nav {
   background-color: #ef953a;
   display: inline-flex;
@@ -40,14 +37,16 @@ li {
   display: inline;
   justify-content: space-between;
 }
+
 a {
    font-weight: bold;
 }
 
 .main {
-
+  background-color: #a78341;
   display:flex;
 }
+
 .main-content {
   display: flex;
   align-items: flex-start;
@@ -57,39 +56,35 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding:50px 25px 25px 0;
-
 }
+
 article {
   max-width: 300px;
-
 }
-
 
 h3 {
   font-size: 20px;
 }
 
-
 .aside {
-  width: 400px;
   display: flex;
   flex-direction: column;
   align-content: center;
   background-color: #a78341;
   padding:20px;
-
 }
-.aside a{
+
+.aside a {
   color:black;
   align-content: center;
 }
+
 h4 {
   display: flex;
   align-content: center;
   margin: 2px;
   background-color: #b8ac21;
   justify-content: flex-end;
-
 }
 
 footer{
