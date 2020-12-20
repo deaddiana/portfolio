@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="utf-8">
+      <title>My Contact Form</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Modak&family=Quicksand&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type= "text/css" href= "./styles/styles.css">
+     <link rel="stylesheet" type= "text/css" href= "./styles/form.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <h2 id="delay">HTML110 PROJECTS</h2>
+     </header>
+       <nav>
+         <ul>
+           <li><a href="https://deaddiana.github.io/portfolio/">Home Page</a></li>
+           <li><a href="./about-me.html">About Me</a></li>
+           <li><a href="./form.html">Contact Me</a></li>
+         </ul>
+       </nav>
+    <form action="/action.php" method="GET" name="my-first-form">
+      <label> First Name
+        <input type="text" name="last-name">
+      </label>
+        <hr>
+      <label> Last Name
+        <input type="text" name="last-name">
+      </label>
+      <hr>
+      <label>Email Address
+          <input type="email" name="email" placeholder="you@domain.com">
+      </label>
+      <hr>
+      <fieldset>
+        <legend>Reason For Message</legend>
+
+      <label> Collaboration
+        <input type="checkbox" name="message-reason[]" value="collaboration">
+        </label>
+
+      <label> Art Piece
+        <input type="checkbox" name="message-reason[]" value="art-piece">
+      </label>
+
+      <label> Web Design
+        <input type="checkbox" name="message-reason[]" value="web-design">
+      </label>
+
+   </fieldset>
+        <hr>
+      <label> Subject:
+        <input type="text" name="last-name">
+      </label>
+      <hr>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+
+
+       <input type="submit" value="Submit">
+       <input type="reset">
+</form>
+
+
+  <footer>
+ Copyright 2020 Diana Gonzalez Web Stuff
+  </footer>
+
+ </body>
+</html>
