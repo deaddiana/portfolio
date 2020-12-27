@@ -7,7 +7,7 @@ body{
 }
 
 header {
-  background-color: #e291dc;
+  background-color: #563a54;
   padding:40px 20px 40px 96px;
 }
 
@@ -25,16 +25,18 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   transition-property:font-size;
   transition: transform 0.6s cubic-bezier(.97,.25,.79,.67);
+  color:#89CFF0;
 }
 
 #delay:hover {
   font-size: 40px;
   font-weight: bold;
+  color:#89CFF0;
 
 }
 
 nav {
-  background-color:  #cbc0ff;
+  background-color: black;
   display: inline-flex;
   margin:0;
   padding:10px 20px 10px 55px;
@@ -43,13 +45,14 @@ nav {
 }
 nav a {
   color: white;
-  font-size:20px;
+  font-size:24px;
   margin-left: 20px;
   transition: background-color 0.5s ease;
 }
 
 nav a:hover {
-  background-color:black;
+  background-color:#002AFF;
+  height: 40px;
 }
 
 li {
@@ -93,11 +96,11 @@ article {
 }
 
 article a {
-color:#7e97dc
+color: #563a54;
 }
 
 article a:visited {
-color: #e291dc;
+color: #002AFF;
 }
 
  aside {
@@ -114,7 +117,7 @@ aside h3 {
   font-family: 'Modak', cursive;
   font-weight: normal;
   font-size: 50px;
-  color: black;
+  color: #563A54;
   margin:0;
 }
 
@@ -135,7 +138,7 @@ h4 {
   display: flex;
   align-content: center;
   margin: 2px;
-  background-color: #e291dc;
+  background-color: white;
   justify-content: flex-end;
 }
 
